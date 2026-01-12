@@ -47,6 +47,9 @@ body {
 .nav-link:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 
 .address-list a {
   color: #434455;
@@ -72,7 +75,8 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .hero-button {
