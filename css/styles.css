@@ -12,15 +12,6 @@ body {
   color: #434455; /* SLATE */
   background-color: #ffffff;
 }
-.features-list,
-.team-list,
-.portfolio-list,
-.nav-list,
-.address-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
