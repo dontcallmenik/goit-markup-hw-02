@@ -34,7 +34,7 @@ body {
   color: #404bbf;
 }
 
-.nav-list a {
+.nav-link {
   text-decoration: none;
 
   font-weight: 500;
@@ -51,7 +51,7 @@ body {
   font-style: normal;
 }
 
-.address-list a {
+.contact-link {
   color: #434455;
   text-decoration: none;
   font-size: 16px;
@@ -67,7 +67,7 @@ body {
 .hero {
   background-color: #2e2f42;
 }
-.hero h1 {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -75,6 +75,7 @@ body {
   text-align: center;
   color: #ffffff;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
@@ -88,7 +89,7 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.features h2 {
+.features-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -97,28 +98,27 @@ body {
   color: #2e2f42;
 }
 
-.features h3 {
+.features-item-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
 }
-.features p {
+
+.features-text {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
 }
 
-/* Секция */
 .team {
   background-color: #f4f4fd;
 }
 
-.team h2 {
+.team-title {
   text-align: center;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -130,7 +130,7 @@ body {
   background-color: #ffffff;
 }
 
-.team-list h3 {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -138,39 +138,35 @@ body {
   color: #2e2f42;
   text-align: center;
 }
-.team-list p {
+
+.team-position {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
   text-align: center;
 }
-.portfolio h2 {
-  text-align: center;
 
+.portfolio-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio h3 {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.portfolio p {
+
+.portfolio-item-type {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
 }
+
 .footer {
   background-color: #2e2f42;
 }
-.footer a {
+.footer-logo {
   text-decoration: none;
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -180,12 +176,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer p {
+
+.footer-text {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #f4f4fd;
 }
+
 .footer span {
   color: #4d5ae5;
 }
